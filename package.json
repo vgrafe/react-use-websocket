@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robtaussig/react-use-websocket.git"
+    "url": "git+https://github.com/vgrafe/react-use-websocket.git"
   },
   "dependencies": {},
   "types": "./dist/index.d.ts",
@@ -82,10 +82,10 @@
     "websocket",
     "websockets"
   ],
-  "author": "Robert Taussig <robert.taussig@gmail.com> (robtaussig.com)",
+  "author": "Vincent Grafé <vincent.grafe@gmail.com> (vgrafe.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/robtaussig/react-use-websocket/issues"
+    "url": "https://github.com/vgrafe/react-use-websocket/issues"
   },
-  "homepage": "https://github.com/robtaussig/react-use-websocket#readme"
+  "homepage": "https://github.com/vgrafe/react-use-websocket#readme"
 }
