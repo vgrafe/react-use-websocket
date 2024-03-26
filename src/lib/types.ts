@@ -68,6 +68,14 @@ export type WebSocketHook<T = unknown, P = WebSocketEventMap['message'] | null> 
   getWebSocket: () => (WebSocketLike | null),
 }
 
+export type VinceSocketHook<T = unknown, P = WebSocketEventMap['message'] | null> = {
+  sendMessage: SendMessage,
+  sendJsonMessage: SendJsonMessage,
+  lastMessages: P[],
+  readyState: ReadyState,
+  getWebSocket: () => (WebSocketLike | null),
+}
+
 export type EventSourceHook = Omit<
   WebSocketHook<EventSourceEventMap['message']>,
   'sendMessage' | 'sendJsonMessage' | 'lastMessage' | 'lastJsonMessage' | 'getWebSocket'

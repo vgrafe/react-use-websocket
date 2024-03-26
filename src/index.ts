@@ -1,5 +1,7 @@
 export { useWebSocket as default } from './lib/use-websocket';
 
+export { useVinceSocket } from './lib/use-vincesocket';
+
 export { SendMessage, Options } from './lib/types';
 
 export { useSocketIO } from './lib/use-socket-io';
